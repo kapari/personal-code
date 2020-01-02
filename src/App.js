@@ -30,7 +30,7 @@ function App() {
           <p>Stuff</p>
         </section>
       </main>
-      <footer className={styles.footer}>&copy; 2019 Ariel Kaplan</footer>
+      <footer className={styles.footer}>&copy; 2019 &ndash; {new Date().getFullYear()} Ariel Kaplan</footer>
     </>
   );
 }
