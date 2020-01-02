@@ -16,17 +16,17 @@ const contactLinks = [
     {
         icon: Twitter,
         title: "Twitter Account (opens in a new tab)",
-        url: "#"
+        url: "https://twitter.com/arielhkaplan"
     },
     {
         icon: LinkedIn,
         title: "LinkedIn Profile (opens in a new tab)",
-        url: "#"
+        url: "https://www.linkedin.com/in/arielhkaplan/"
     },
     {
         icon: GitHub,
         title: "GitHub Profile (opens in a new tab",
-        url: "#"
+        url: "https://github.com/kapari"
     }
 ];
 
