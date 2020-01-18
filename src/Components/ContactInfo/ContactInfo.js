@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactItem from './ContactItem/ContactItem';
 import SvgIcon from '@material-ui/core/SvgIcon';
-import AlternateEmail from '@material-ui/icons/AlternateEmail';
+import Mail from '@material-ui/icons/Mail';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import Twitter from '@material-ui/icons/Twitter';
 import GitHub from '@material-ui/icons/GitHub';
@@ -9,9 +9,9 @@ import styles from './ContactInfo.module.css';
 
 const contactLinks = [
     {
-        icon: AlternateEmail,
+        icon: Mail,
         title: "Email Me",
-        url: "#"
+        url: "mailto:ariel@arielkaplan.com"
     },
     {
         icon: Twitter,
