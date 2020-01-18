@@ -3,18 +3,48 @@ import logo from './logo.svg';
 import ContactInfo from './Components/ContactInfo/ContactInfo';
 import Interests from './Components/Interests/Interests';
 import ProjectList from './Components/ProjectList/ProjectList';
-import styles from './App.module.css';
+import styled from '@emotion/styled';
+
+const Logo = styled.img`
+  height: 40vmin;
+  pointer-events: none;
+  @media(prefers-reduced-motion: no-preference) {
+    animation: spin infinite 20s linear;
+  }
+`;
+
+const Header = styled.header`
+  background-color: var(--bg-dark);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--text-over-dark);
+`;
+
+const Main = styled.main`
+  padding: 2em;
+`;
+
+const Footer = styled.footer`
+  background-color: var(--bg-dark);
+  padding: 2em;
+  text-align: center;
+  color: var(--text-over-dark);
+`;
 
 function App() {
   return (
     <>
-      <header className={styles.header}>
-        <img src={logo} className={styles.logo} alt="logo" />
+      <Header>
+        <Logo src={logo} alt="logo" />
         <h1>Ariel Kaplan</h1>
         <ContactInfo />
         <Interests />
-      </header>
-      <main className={styles.main}>
+      </Header>
+      <Main>
         <section>
           <h2>Hello</h2>
           <p>The only home we’ve ever known preserve and cherish that pale blue dot. Cosmic fugue, circumnavigated descended from astronomers decipherment, permanence of the stars science Euclid muse about!</p>
@@ -54,8 +84,8 @@ function App() {
           <h3>Coding Bootcamp</h3>
           <p>PDX Code Guild - Full-time 12-week intensive program for full-stack web development with Python and Django</p>
         </section>
-      </main>
-      <footer className={styles.footer}>&copy; 2019 &ndash; {new Date().getFullYear()} Ariel Kaplan</footer>
+      </Main>
+      <Footer>&copy; 2019 &ndash; {new Date().getFullYear()} Ariel Kaplan</Footer>
     </>
   );
 }

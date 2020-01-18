@@ -5,7 +5,14 @@ import Mail from '@material-ui/icons/Mail';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import Twitter from '@material-ui/icons/Twitter';
 import GitHub from '@material-ui/icons/GitHub';
-import styles from './ContactInfo.module.css';
+import styled from '@emotion/styled';
+
+const List = styled.ul`
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+`;
+
 
 const contactLinks = [
     {
@@ -32,7 +39,7 @@ const contactLinks = [
 
 const ContactInfo = () => {
     return (
-        <ul className={styles.list}>
+        <List>
             {contactLinks.map((item, index) => (
                 <ContactItem 
                     key={index} 
@@ -41,7 +48,7 @@ const ContactInfo = () => {
                     iconElt={<SvgIcon component={item.icon} titleAccess={item.title} />}
                 />
             ))}
-        </ul>   
+        </List>   
     )
 }
 
