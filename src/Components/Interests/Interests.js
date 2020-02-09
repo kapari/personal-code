@@ -2,22 +2,26 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 const Link = styled.a`
+    transition: .3s background-color ease-in-out;
     display: block;
-    margin-bottom: .75rem;
-    width: 400px;
-    max-width: 80%;
+    margin: .75rem auto;
+    width: 100%;
+    max-width: 250px;
     border: 1px solid currentColor;
     border-radius: 3px;
+    background-color: transparent;
     padding: .5em;
     text-align: center;
     color: var(--text-over-dark);
     text-decoration: none;
+    &:hover, &:active, &:focus {
+        background-color: var(--contrast-color);
+    }
 `;
 
 const Interests = () => {
     return (
         <>
-            <h2>Other Interests</h2>
             <Link
                 href="https://dance.arielkaplan.com"
                 title="Dance Site"
