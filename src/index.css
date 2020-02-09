@@ -8,6 +8,7 @@
   --text-over-dark: #F4F1FB;
   --text-over-light: #181E2B;
   --accent: #B12340;
+  --text-over-accent: white;
   --contrast-color: var(--contrast-dark);
   --contrast-dark: #3C5A6F;
   --contrast-light: #A69CAD; 
