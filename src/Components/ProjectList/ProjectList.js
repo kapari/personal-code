@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import Codepen from "react-codepen-embed";
 import ProjectCard from './ProjectCard/ProjectCard';
 
 const List = styled.ul`
@@ -11,6 +12,16 @@ const List = styled.ul`
 const ProjectList = () => {
     return (
         <List>
+            <li>
+                <ProjectCard title="CSS Art" date="2020">
+                    <Codepen
+                        hash="GRJgmQz"
+                        user="kapari"
+                        height="300px"
+                        loader={() => <div>Loading...</div>}
+                    />
+                </ProjectCard>
+            </li>
             <li>
                 <ProjectCard title="Personal Code Site" date="2019">
                     <p>Stuff</p>
