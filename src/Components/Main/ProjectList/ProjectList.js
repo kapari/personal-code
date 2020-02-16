@@ -13,7 +13,7 @@ const ProjectList = () => {
     return (
         <List>
             <li>
-                <ProjectCard title="CSS Art" date="2020">
+                <ProjectCard title="CSS Art: Pyramid" date="2020">
                     <Codepen
                         hash="GRJgmQz"
                         user="kapari"
