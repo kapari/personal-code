@@ -58,9 +58,10 @@ function App() {
       </Header>
       <Main>
         <section>
-          <h2>Hello</h2>
-          <p>The only home we’ve ever known preserve and cherish that pale blue dot. Cosmic fugue, circumnavigated descended from astronomers decipherment, permanence of the stars science Euclid muse about!</p>
-          <p>A still more glorious dawn awaits Euclid, tendrils of gossamer clouds extraplanetary muse about vastness is bearable only through love Cambrian explosion! Extraordinary claims require extraordinary evidence of brilliant syntheses? Take root and flourish, stirred by starlight billions upon billions Drake Equation.</p>
+          <h2>Hello!</h2>
+          <p>I develop web sites and applications with an artistic eye and a drive for accessibility and inclusive design.</p>
+          <p>My foundations involve years of casually building websites for friends and family, a studio art degree, a few courses in Python both on- and offline, and a consistent curiosity about how people think and behave. I'm always looking for a clearer, simpler, more straightforward and elegant way of doing things, whether it is a new UI, React components, CSS secrets, documentation, teaching, or processes.</p>
+          <p>When I'm not programming or sketching UI elements, I can be found behind a camera or in the local dance community. I teach group classes in Nightclub Two-Step, Hustle, Country Two-Step, and Cross-Step Waltz, and private lessons in those and others, including West Coast Swing. </p>
         </section>
         <section>
           <Interests />
