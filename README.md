@@ -31,32 +31,19 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Followed the Create-React-App [documentation](https://create-react-app.dev/docs/deployment/#github-pages).
 
-## Learn More
+## Plan
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### V1
+- Replace old site
+- Keep it simple
+- One page
+- Start branding 
+- Get a recent project out there
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Future 
+- Routing
+- Themes
+- Contact form 
+- Fancier styles & animations
+- Blog?
+- Expand to include other subdomains 
